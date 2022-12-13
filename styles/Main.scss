@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  background-color: black;
+  background-color: gainsboro;
   height: 100vh;
   display: grid;
   place-items: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .card {
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: rgba(255, 255, 255, 0.562);
   position: absolute;
 }
 
@@ -38,6 +38,12 @@ body {
 }
 
 // Animate Cards
+.little-card:nth-child(1) {
+  z-index: 1;
+  background-image: url("../public/Imgs/i.jpeg");
+  background-size: cover;
+}
+
 .big-card:nth-child(2) {
   transform: translateX(-10%) rotate(-1deg);
 }
@@ -72,22 +78,10 @@ body {
 }
 
 .card-group:hover > .little-card:nth-child(1) {
-  background-image: url("../public/Imgs/i.jpeg");
-  background-size: cover;
   transform: translate(200%, -160%) rotate(-15deg);
 }
 
 .card-group:hover > .little-card:nth-child(3) {
-  transform: translate(160%, 170%) rotate(15deg);
-}
-
-.card-group:hover > .little-card:nth-child(5) {
-  background-image: url("../public/Imgs/Pot.jpeg");
-  background-size: contain;
-  transform: translate(-200%, -170%) rotate(15deg);
-}
-
-.card-group:hover > .little-card:nth-child(7) {
   background-image: url("../public/Imgs/Wordle.svg");
   background-position: center;
   background-size: cover;
@@ -97,6 +91,21 @@ body {
   text-align: center;
   display: grid;
   align-items: center;
+  transform: translate(160%, 170%) rotate(15deg);
+}
+
+.card-group:hover > .little-card:nth-child(5) {
+  background-image: url("../public/Imgs/Slightly.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  transform: translate(-200%, -170%) rotate(15deg);
+}
+
+.card-group:hover > .little-card:nth-child(7) {
+  background-image: url("../public/Imgs/Pot.jpeg");
+  background-size: contain;
   transform: translate(-280%, 140%) rotate(-15deg);
 }
 
@@ -104,4 +113,8 @@ body {
   cursor: pointer;
   color: white;
   text-decoration: none;
+}
+
+#iCard {
+  cursor: pointer;
 }
