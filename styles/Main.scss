@@ -1,5 +1,4 @@
-// CARD
-.App {
+body {
   margin: 0px;
   background-color: black;
   height: 100vh;
@@ -7,8 +6,10 @@
   place-items: center;
 }
 
+// CARD
 .card-group,
 .card {
+  margin-top: 200px;
   aspect-ratio: 5 / 7;
 }
 
@@ -30,23 +31,77 @@
 .little-card {
   width: 12vmin;
   border-radius: 2vmin;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0;
 }
 
-// Animation
-.big-card:nth-child(1) {
-  background-color: rgba(0, 0, 255, 0.5);
+// Animate Cards
+.big-card:nth-child(2) {
   transform: translateX(-10%) rotate(-1deg);
 }
 
-.big-card:nth-child(2) {
+.big-card:nth-child(4) {
   transform: rotate(2deg);
 }
 
-.big-card:nth-child(3) {
+.big-card:nth-child(6) {
   transform: translateX(-6%) rotate(-3deg);
 }
 
-.big-card:nth-child(4) {
-  background-color: rgba(0, 0, 255, 0.5);
+.big-card:nth-child(8) {
   transform: translate(10%, 3%) rotate(5deg);
+}
+
+// Hover Effect
+.card-group:hover > .big-card:nth-child(2) {
+  transform: translate(-75%, 16%) rotate(-24deg);
+}
+
+.card-group:hover > .big-card:nth-child(4) {
+  transform: translate(-25%, 8%) rotate(-8deg);
+}
+
+.card-group:hover > .big-card:nth-child(6) {
+  transform: translate(25%, 8%) rotate(8deg);
+}
+
+.card-group:hover > .big-card:nth-child(8) {
+  transform: translate(75%, 16%) rotate(24deg);
+}
+
+.card-group:hover > .little-card:nth-child(1) {
+  background-image: url("../public/Imgs/i.jpeg");
+  background-size: cover;
+  transform: translate(200%, -160%) rotate(-15deg);
+}
+
+.card-group:hover > .little-card:nth-child(3) {
+  transform: translate(160%, 170%) rotate(15deg);
+}
+
+.card-group:hover > .little-card:nth-child(5) {
+  background-image: url("../public/Imgs/Pot.jpeg");
+  background-size: contain;
+  transform: translate(-200%, -170%) rotate(15deg);
+}
+
+.card-group:hover > .little-card:nth-child(7) {
+  background-image: url("../public/Imgs/Wordle.svg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  transform: translate(-280%, 140%) rotate(-15deg);
+}
+
+.link {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
 }

@@ -8,8 +8,6 @@ export default function Home() {
       {/* Head */}
       <HeadComp title={"Portfolio"} />
 
-      <h1>Hello World</h1>
-
       <CardComp />
     </>
   );

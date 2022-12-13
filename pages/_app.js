@@ -1,11 +1,7 @@
 import "../styles/Main.scss";
 
 function MyApp({ Component, pageProps }) {
-  return (
-    <div className="App">
-      <Component {...pageProps} />
-    </div>
-  );
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;
