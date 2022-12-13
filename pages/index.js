@@ -1,15 +1,16 @@
-import Image from "next/image";
-
 // Components
 import HeadComp from "../components/HeadComp";
+import CardComp from "../components/CardComp";
 
 export default function Home() {
   return (
     <>
       {/* Head */}
-      <HeadComp title={"SP | Portfolio"} />
+      <HeadComp title={"Portfolio"} />
 
-      <h1 className="text-5xl font-bold">Hello World</h1>
+      <h1>Hello World</h1>
+
+      <CardComp />
     </>
   );
 }
