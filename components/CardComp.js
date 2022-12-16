@@ -27,7 +27,17 @@ export default function CardComp() {
 
         <div className="big-card card"></div>
 
-        <div className="little-card card"></div>
+        {/* TSC Small Card */}
+        <div className="little-card card">
+          <a
+            class="TSC"
+            href="https://surpun.github.io/Slightly-Curious/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>Pottery</span> Studio
+          </a>
+        </div>
 
         <div className="big-card card"></div>
       </div>
