@@ -9,7 +9,10 @@ body {
 // Head1
 
 .head1-container {
-  margin-bottom: -160px;
+  position: absolute;
+  color: white;
+  font-size: 3vh;
+  left: 20%;
 }
 
 // CARD
@@ -167,5 +170,6 @@ body {
 
   .big-card {
     left: 135px;
+    top: 255px;
   }
 } ;
