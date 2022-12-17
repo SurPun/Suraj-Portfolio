@@ -1,7 +1,7 @@
 // Components
 import HeadComp from "../components/HeadComp";
 import CardComp from "../components/CardComp";
-import Head1 from "../components/Head1";
+import H1 from "../components/H1";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       {/* Head */}
       <HeadComp title={"Portfolio"} />
 
-      <Head1 />
+      <H1 />
 
       <CardComp />
     </>

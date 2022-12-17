@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function Head1() {
+export default function H1() {
   return (
     <>
       <div class="head1-container">
         <h1>
           Hi,
           <br />
-          I'm Suraj,
+          I&apos;m Suraj,
           <br />
           Software Developer
         </h1>
