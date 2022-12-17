@@ -1,3 +1,7 @@
+// Root
+$primary-color: rgb(178, 138, 138);
+
+// Main
 body {
   margin: 0px;
   width: 100%;
@@ -164,13 +168,21 @@ body {
   display: flex;
   gap: 20px;
   color: white;
-  margin-top: -20px;
+  margin-top: -25px;
+  background-color: $primary-color;
+  padding: 10px 10px 0px 10px;
+  border-radius: 20px;
+  width: 125px;
 }
 
 .socials a {
   text-decoration: none;
   list-style: none;
   color: white;
+}
+
+.socials a:hover {
+  color: black;
 }
 
 // Mobile View
