@@ -6,6 +6,12 @@ body {
   place-items: center;
 }
 
+// Head1
+
+.head1-container {
+  margin-bottom: -160px;
+}
+
 // CARD
 .card-group,
 .card {
@@ -110,7 +116,8 @@ body {
   transform: translate(-280%, 140%) rotate(-15deg);
 }
 
-.link {
+// Little Cards
+#wordle {
   cursor: pointer;
   color: white;
   text-decoration: none;
@@ -118,9 +125,17 @@ body {
 
 #iCard {
   cursor: pointer;
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  bottom: 25px;
+  left: 10px;
 }
 
-.TSC {
+#TSC {
   cursor: pointer;
   font-size: 24px;
   color: white;
@@ -131,7 +146,26 @@ body {
   right: 0px;
 }
 
-.TSC span {
+#TSC span {
   color: rgb(227, 84, 131);
   font-size: 30px;
 }
+
+// Mobile View
+@media screen and (max-width: 600px) {
+  #iCard {
+    font-size: 12px;
+    bottom: 10px;
+    left: 3px;
+  }
+
+  #wordle,
+  #TSC,
+  #TSC span {
+    font-size: 12px;
+  }
+
+  .big-card {
+    left: 135px;
+  }
+} ;

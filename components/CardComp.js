@@ -5,14 +5,23 @@ export default function CardComp() {
     <>
       <div className="card-group">
         {/* I Small Card */}
-        <div className="little-card card" id="iCard"></div>
+        <div className="little-card card">
+          <a
+            id="iCard"
+            href="https://github.com/SurPun"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github
+          </a>
+        </div>
 
         <div className="big-card card"></div>
 
         {/* Wordle Small Card */}
         <div className="little-card card">
           <a
-            class="link"
+            id="wordle"
             href="https://wordle-surpun.vercel.app/"
             target="_blank"
             rel="noreferrer"
@@ -30,7 +39,7 @@ export default function CardComp() {
         {/* TSC Small Card */}
         <div className="little-card card">
           <a
-            class="TSC"
+            id="TSC"
             href="https://surpun.github.io/Slightly-Curious/"
             target="_blank"
             rel="noreferrer"
