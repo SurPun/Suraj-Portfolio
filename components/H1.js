@@ -15,7 +15,11 @@ export default function H1() {
 
         <div class="socials">
           {/* Mailto */}
-          <a href="mailto: " target="_blank" rel="noreferrer">
+          <a
+            href="mailto: S_pun.mail@proton.me"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaRegEnvelope />
           </a>
 
