@@ -1,4 +1,5 @@
 import React from "react";
+import { FaLinkedin, FaRegEnvelope } from "react-icons/fa";
 
 export default function H1() {
   return (
@@ -11,6 +12,22 @@ export default function H1() {
           <br />
           Software Developer
         </h1>
+
+        <div class="socials">
+          {/* Mailto */}
+          <a href="mailto: " target="_blank" rel="noreferrer">
+            <FaRegEnvelope />
+          </a>
+
+          {/* Linked-in */}
+          <a
+            href="https://www.linkedin.com/in/surpun/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedin />
+          </a>
+        </div>
       </div>
     </>
   );
