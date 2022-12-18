@@ -23,6 +23,10 @@ body {
   top: 12%;
 }
 
+.role {
+  color: $primary-color;
+}
+
 // CARD
 .card-group,
 .card {
@@ -128,9 +132,9 @@ body {
 }
 
 // Little Cards
-#wordle {
+#TBA {
   cursor: pointer;
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 30px;
 }
@@ -145,6 +149,13 @@ body {
   position: absolute;
   bottom: 25px;
   left: 10px;
+}
+
+#wordle {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
 }
 
 #TSC {
@@ -164,25 +175,35 @@ body {
 }
 
 .socials {
-  font-size: 50px;
+  font-size: 35px;
   display: flex;
-  gap: 20px;
+  gap: 30px;
   color: white;
-  margin-top: -25px;
-  background-color: $primary-color;
-  padding: 10px 10px 0px 10px;
-  border-radius: 20px;
-  width: 125px;
+  margin-top: -20px;
+  // background-color: $primary-color;
+  padding: 8px 5px 0px 10px;
+  border-radius: 15px;
+  width: 50px;
 }
 
 .socials a {
   text-decoration: none;
   list-style: none;
   color: white;
+  padding-left: 5px;
 }
 
 .socials a:hover {
-  color: black;
+  color: $primary-color;
+}
+
+#search {
+  position: absolute;
+  left: -30px;
+  bottom: -60px;
+  font-size: 105px;
+  transform: scaleX(-1);
+  z-index: -1;
 }
 
 // Mobile View

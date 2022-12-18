@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaRegEnvelope } from "react-icons/fa";
+import { FaLinkedinIn, FaRegEnvelope, FaSearch } from "react-icons/fa";
 
 export default function H1() {
   return (
@@ -10,10 +10,19 @@ export default function H1() {
           <br />
           I&apos;m Suraj,
           <br />
-          Software Developer
+          <span class="role">Software Developer;</span>
         </h1>
 
         <div class="socials">
+          {/* Linked-in */}
+          <a
+            href="https://www.linkedin.com/in/surpun/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaLinkedinIn />
+          </a>
+
           {/* Mailto */}
           <a
             href="mailto: S_pun.mail@proton.me"
@@ -22,15 +31,11 @@ export default function H1() {
           >
             <FaRegEnvelope />
           </a>
+        </div>
 
-          {/* Linked-in */}
-          <a
-            href="https://www.linkedin.com/in/surpun/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedin />
-          </a>
+        {/* Search Icon */}
+        <div id="search">
+          <FaSearch />
         </div>
       </div>
     </>

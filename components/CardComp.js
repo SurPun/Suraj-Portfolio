@@ -32,7 +32,12 @@ export default function CardComp() {
 
         <div className="big-card card"></div>
 
-        <div className="little-card card"></div>
+        {/* Project TBA */}
+        <div className="little-card card">
+          <a id="TBA" href="" target="_blank" rel="noreferrer">
+            TBA
+          </a>
+        </div>
 
         <div className="big-card card"></div>
 
