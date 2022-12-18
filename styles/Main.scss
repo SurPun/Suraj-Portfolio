@@ -179,7 +179,7 @@ body {
   display: flex;
   gap: 30px;
   color: white;
-  margin-top: -20px;
+  margin-top: -15px;
   // background-color: $primary-color;
   padding: 8px 5px 0px 10px;
   border-radius: 15px;
@@ -204,6 +204,21 @@ body {
   font-size: 105px;
   transform: scaleX(-1);
   z-index: -1;
+}
+
+.footer-container {
+  color: white;
+  position: absolute;
+  margin-top: 500px;
+  font-size: 30px;
+  left: 20%;
+  height: 150px;
+  width: 70%;
+  text-align: justify;
+}
+
+#founders {
+  color: $primary-color;
 }
 
 // Mobile View
