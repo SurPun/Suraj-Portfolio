@@ -14,6 +14,14 @@ body {
   background-repeat: no-repeat;
 }
 
+// NavBar
+#nav-bar {
+  color: white;
+  font-size: 45px;
+  position: absolute;
+  top: 0;
+}
+
 // Head1
 .head1-container {
   position: absolute;
@@ -211,18 +219,40 @@ body {
   position: absolute;
   margin-top: 500px;
   font-size: 30px;
-  left: 20%;
+  left: 15%;
   height: 150px;
   width: 70%;
-  text-align: justify;
+  text-align: center;
+  padding-bottom: 2vh;
 }
 
 #founders {
   color: $primary-color;
 }
 
+#footer-icon {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  font-size: 40px;
+}
+
+.line {
+  display: block;
+  width: 55vw;
+  height: 2px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $primary-color;
+}
+
 // Mobile View
 @media screen and (max-width: 600px) {
+  .socials {
+    padding-top: 20px;
+  }
+
   #iCard {
     font-size: 12px;
     bottom: 10px;
@@ -231,12 +261,17 @@ body {
 
   #wordle,
   #TSC,
-  #TSC span {
+  #TSC span,
+  #TBA {
     font-size: 12px;
   }
 
   .big-card {
     left: 135px;
     top: 250px;
+  }
+
+  .footer-container {
+    margin-top: 275px;
   }
 }

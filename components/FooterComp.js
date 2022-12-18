@@ -1,5 +1,8 @@
 import React from "react";
 
+import { FaLaptopCode } from "react-icons/fa";
+// FaLaptopCode
+
 export default function FooterComp() {
   return (
     <>
@@ -15,6 +18,11 @@ export default function FooterComp() {
             Founders & Coders
           </a>{" "}
           and aspiring to become a Full-Stack Developer.
+          <div id="footer-icon">
+            <FaLaptopCode />
+            <span class="line"></span>
+            <FaLaptopCode />
+          </div>
         </div>
       </footer>
     </>
