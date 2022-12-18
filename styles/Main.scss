@@ -62,6 +62,7 @@ body {
 .big-card {
   width: 30vmin;
   border-radius: 1vmin;
+  top: 30.5%;
 }
 
 .little-card {
@@ -266,6 +267,10 @@ body {
 @media screen and (max-width: 600px) {
   .socials {
     padding-top: 20px;
+  }
+
+  .card-group {
+    margin-bottom: 20px;
   }
 
   #iCard {
