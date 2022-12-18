@@ -8,16 +8,20 @@ export default function FooterComp() {
     <>
       <footer>
         <div class="footer-container">
-          Trained with{" "}
-          <a
-            id="founders"
-            href="https://www.foundersandcoders.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Founders & Coders
-          </a>{" "}
-          and aspiring to become a Full-Stack Developer.
+          <div class="footer-text">
+            Trained with{" "}
+            <a
+              id="founders"
+              href="https://www.foundersandcoders.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Founders & Coders
+            </a>{" "}
+            and aspiring to become a Full-Stack Developer.
+          </div>
+
+          {/* Icon */}
           <div id="footer-icon">
             <FaLaptopCode />
             <span class="line"></span>

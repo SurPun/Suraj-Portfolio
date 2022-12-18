@@ -11,7 +11,9 @@ export default function Home() {
       {/* Head */}
       <HeadComp title={"Portfolio"} />
 
-      <NavComp />
+      <div class="nav">
+        <NavComp />
+      </div>
 
       <H1 />
 
