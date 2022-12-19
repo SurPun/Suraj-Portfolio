@@ -16,16 +16,14 @@ body {
 }
 
 // NavBar
-.nav {
+.nav-container {
+  display: flex;
+  background-color: red;
   position: absolute;
   color: white;
-}
-
-#nav-bar {
-  color: white;
-  font-size: 45px;
-  position: absolute;
+  font-size: 35px;
   top: 0;
+  left: 0;
 }
 
 // Head1

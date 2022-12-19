@@ -1,11 +1,19 @@
 import React from "react";
-import Burger from "./Burger";
 
 export default function NavComp() {
   return (
     <>
-      <div className="logo">Nav Bar</div>
-      <Burger />
+      <ul class="nav-container">
+        <li>
+          <a>Home</a>
+        </li>
+        <li>
+          <a>About</a>
+        </li>
+        <li>
+          <a>Work</a>
+        </li>
+      </ul>
     </>
   );
 }
