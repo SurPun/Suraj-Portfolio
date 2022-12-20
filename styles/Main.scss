@@ -266,7 +266,7 @@ body {
 // Mobile View ------------------------------------
 @media screen and (max-width: 600px) {
   .socials {
-    padding-top: 20px;
+    padding-top: 0px;
   }
 
   .card-group {
@@ -300,9 +300,12 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
+  .socials {
+  }
+
   .little-card {
-    top: 47vh;
+    top: 45vh;
   }
 
   #wordle,
@@ -314,6 +317,6 @@ body {
   }
 
   .footer-container {
-    margin-top: 275px;
+    margin-top: 355px;
   }
 }
