@@ -1,7 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
 import React, { useState } from "react";
-import Logo from "./Logo";
+import { FaAddressCard } from "react-icons/fa";
 import NavItem from "./NavItem";
 
 const MENU_LIST = [
@@ -19,7 +18,9 @@ const Navbar = () => {
       <nav className={`nav`}>
         <Link legacyBehavior href={"/"}>
           <a>
-            <h1 className="logo">Logo</h1>
+            <h1 className="logo">
+              <FaAddressCard id="nav-logo" />
+            </h1>
           </a>
         </Link>
         <div
