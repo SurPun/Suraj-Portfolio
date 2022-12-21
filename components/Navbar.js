@@ -19,7 +19,7 @@ const Navbar = () => {
       <nav className={`nav`}>
         <Link legacyBehavior href={"/"}>
           <a>
-            <h1 className="logo">CodeWithMarish</h1>
+            <h1 className="logo">Logo</h1>
           </a>
         </Link>
         <div
