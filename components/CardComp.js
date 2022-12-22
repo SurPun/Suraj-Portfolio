@@ -16,7 +16,7 @@ export default function CardComp() {
           </a>
         </div>
 
-        <div className="big-card card"></div>
+        <div className="big-card card">n</div>
 
         {/* Wordle Small Card */}
         <div className="little-card card">
