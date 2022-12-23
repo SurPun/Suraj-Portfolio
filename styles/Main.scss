@@ -162,6 +162,8 @@ nav {
   width: 30vmin;
   border-radius: 1vmin;
   top: 30.5%;
+
+  text-align: center;
 }
 
 .little-card {
@@ -177,12 +179,17 @@ nav {
 // Animate Cards
 .little-card:nth-child(1) {
   z-index: 1;
-  background-image: url("../public/Imgs/i.jpeg");
+  background-image: url("../public/Imgs/i.jpeg"); //iCard
   background-size: cover;
 }
 
 .big-card:nth-child(2) {
   transform: translateX(-10%) rotate(-1deg);
+  background-image: url("../public/Imgs/IET.png");
+  background-size: 25%;
+  background-repeat: space;
+  background-position: center;
+  background-color: black;
 }
 
 .big-card:nth-child(4) {
@@ -243,6 +250,16 @@ nav {
   background-image: url("../public/Imgs/Pot.jpeg");
   background-size: contain;
   transform: translate(-280%, 140%) rotate(-15deg);
+}
+
+// Big Cards
+#IET {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  font-size: 6rem;
+  color: whitesmoke;
+  text-decoration: underline;
 }
 
 // Little Cards
@@ -361,8 +378,6 @@ nav {
   margin-right: auto;
   background-color: $primary-color;
 }
-
-// Hamburger / NavBar -----------------------------
 
 // Mobile View ------------------------------------
 @media screen and (min-width: 320px) and (max-width: 480px) {

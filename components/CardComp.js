@@ -16,7 +16,17 @@ export default function CardComp() {
           </a>
         </div>
 
-        <div className="big-card card">n</div>
+        {/* IET Big Card */}
+        <div className="big-card card">
+          <a
+            id="IET"
+            href="https://iet-kebbah.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            IET
+          </a>
+        </div>
 
         {/* Wordle Small Card */}
         <div className="little-card card">
