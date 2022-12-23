@@ -20,6 +20,10 @@ body {
   font-size: 35px;
 }
 
+#nav-logo:hover {
+  color: black;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -61,8 +65,8 @@ nav {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 99px;
-  width: 158px;
+  top: 83px;
+  width: 125px;
   row-gap: 25px;
   right: -400px;
   padding: 24px 16px;
