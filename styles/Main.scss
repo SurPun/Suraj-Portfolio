@@ -186,10 +186,11 @@ nav {
 .big-card:nth-child(2) {
   transform: translateX(-10%) rotate(-1deg);
   background-image: url("../public/Imgs/IET.png");
-  background-size: 25%;
+  background-size: 107%;
   background-repeat: space;
   background-position: center;
   background-color: black;
+  overflow: hidden;
 }
 
 .big-card:nth-child(4) {
@@ -257,9 +258,8 @@ nav {
   cursor: pointer;
   color: black;
   text-decoration: none;
-  font-size: 6rem;
+  font-size: 7vmin;
   color: whitesmoke;
-  text-decoration: underline;
 }
 
 // Little Cards
