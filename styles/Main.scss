@@ -191,6 +191,9 @@ nav {
   background-position: center;
   background-color: black;
   overflow: hidden;
+
+  display: grid;
+  align-items: center;
 }
 
 .big-card:nth-child(4) {

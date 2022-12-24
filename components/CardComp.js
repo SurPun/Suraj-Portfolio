@@ -24,7 +24,6 @@ export default function CardComp() {
             target="_blank"
             rel="noreferrer"
           >
-            <br></br>
             IET
             {/* Immersive Empathy Training */}
           </a>
