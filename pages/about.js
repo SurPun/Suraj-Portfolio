@@ -14,6 +14,13 @@ const About = () => {
         modern web development technologies and practices, including HTML, CSS,
         JavaScript, Node.js, and React.
       </p>
+
+      <p>
+        In addition to the technical skills I acquired during the bootcamp, I
+        also developed strong problem-solving and communication skills. I am
+        comfortable working in a team environment and have experience
+        collaborating on projects using agile development methodologies.
+      </p>
     </div>
   );
 };
